@@ -17,8 +17,8 @@ link_enter = Entry(root, width = 60,textvariable = link).place(x = 75, y = 150
 
 
 def Downloader():     
-    url =YouTube(str(link.get()))
-    video = url.streams.first()
+    url1 =YouTube(str(link.get()))
+    video = url1.streams.first()
     video.download()
     Label(root, text = 'DOWNLOADED', font = 'Lucida 15').place(x= 180 , y = 210)  
 
