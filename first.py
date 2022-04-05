@@ -12,7 +12,7 @@ Label(root,text = 'Youtube Video Downloader', font ='Lucida 20 ').place(x= 85,y=
 link = StringVar()
 
 Label(root, text = 'Paste Link Here:', font = 'Lucida 15 ').place(x= 160 , y = 100)
-link_enter = Entry(root, width = 60,textvariable = link).place(x = 75, y = 150)
+link_enter = Entry(root, width = 60,textvariable = link).place(x = 75, y = 150
 
 
 
